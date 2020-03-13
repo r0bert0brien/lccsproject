@@ -1,0 +1,265 @@
+h1 {
+    font-family:    "bebas neue";
+    line-height: 0.1;
+    font-weight: 400;
+    font-size: 5rem;
+}
+h2 {
+    font-family:    "bebas neue";
+    font-size: 2rem;
+    text-align: left;
+    line-height: 20px;
+}
+p{
+    font-family:    "helvetica";
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: left;
+}
+.column1 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+    height: 250px;
+    width: 600px;
+    
+}
+.column2 {
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+    height: 250px;
+    width: 50%;
+}
+.column3 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+    height: 250px;
+    width: 600px;
+    
+}
+.section1 {
+    background-color: #E31C3D;
+    height: 500px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.section2 {
+    background-color: #3068BF;
+    height: 500px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.section3 {
+    background-color: #D99F00;
+    height: 500px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.section4 {
+    background-color: #2A8F0D;
+    height: 500px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+.home1 {
+    height: 175px;
+    width: 250px;
+    padding-left: 100px;    
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: 8px;
+  border-style: inset;
+  border-width: 1px;
+}
+.button1 {
+  background-color: #e51537;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button1:hover {
+  background-color: #b6112c;
+  color: white;
+}
+p2 {
+    font-family: "helvetica";
+}
+chart_div {
+    align-content: left;
+}
+/* Slider */
+li a:hover {
+  background-color: #111;
+}
+.ba-slider {
+    position: relative;
+    align-content: right;
+    overflow: hidden;
+    width: 40%;
+    margin: auto;
+    height: auto;
+}
+ 
+.ba-slider img {
+    width: 100%;
+    max-width:none;
+}
+ 
+.ba-slider .resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+.ba-slider .handle { /* Thin line seperator */
+  position:absolute; 
+  left:50%;
+  top:0;
+  bottom:0;
+  width:1px;
+  margin-left:-2px;
+ 
+  background: rgba(0,0,0);
+  cursor: ew-resize;
+}
+ 
+.ba-slider .handle:after {  /* Big orange knob  */
+    position: absolute;
+    top: 50%;
+    width: 64px;
+    height: 64px;
+    margin: -32px 0 0 -32px;
+ 
+    content:'\21d4';
+    color:white;
+    font-weight:bold;
+    font-size:36px;
+    text-align:center;
+    line-height:64px;
+ 
+    background: #f88432; /* @orange */
+    border:1px solid #e6a600; /* darken(@orange, 5%) */
+    border-radius: 50%;
+    transition:all 0.3s ease;
+    box-shadow:
+      0 2px 6px rgba(0,0,0,.3), 
+      inset 0 2px 0 rgba(255,255,255,.5),
+      inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
+}
+
+.ba-slider .handle.ba-draggable:after {
+    width: 48px;
+    height: 48px;
+    margin: -24px 0 0 -24px;
+    line-height:50px;
+    font-size:30px;
+}
+
+.slideshow-container {
+  width: 40%;
+height: 40%;
+  position: relative;
+    padding-top: 35px;
+    padding-left: 260px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #e51537;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #e51537;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
